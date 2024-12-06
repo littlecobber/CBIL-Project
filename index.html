@@ -139,18 +139,22 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <iframe width="560" height="315" 
-              src="https://www.youtube.com/embed/8NTnvE0p3Tg" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-      </iframe>
+      <div style="position: relative; width: 100%; height: 100%; overflow: hidden;">
+        <iframe width="100%" height="100%" 
+                src="https://www.youtube.com/embed/8NTnvE0p3Tg" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen 
+                style="object-fit: cover; width: 100%; height: 100%;">
+        </iframe>
+      </div>
       <h2 class="subtitle has-text-centered" style="margin-top: 10px;">
         CBIL learns diverse collective behaviors of simulated fish from video inputs directly, enabling real-time synthesis of diverse collective motions.
       </h2>
     </div>
   </div>
 </section>
+
 
 
 <!-- End teaser video -->
